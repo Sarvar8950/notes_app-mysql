@@ -1,0 +1,80 @@
+.notesapp{
+    position: relative;
+    width: 100%;
+}
+.notesapp .notes{
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.notesapp .notes .form{
+    width: 29%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.notesapp .notes .form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 4px 8px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+.notesapp .notes .form .submitbtn{
+    margin: 10px 0;
+    padding: 4px 8px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #51d451;
+}
+
+.notesapp .notes .cards{
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.notesapp .notes .cards .cardbox{
+    position: relative;
+    min-width: 200px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    line-height: 2;
+    font-size: 19px;
+    margin-bottom: 10px;
+    word-break: break-all;
+    box-sizing: content-box;
+}
+.notesapp .notes .cards .cardbox .deletebtn{
+    background: red;
+    padding: 4px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px 8px;
+    font-size: 19px;
+}
+.notesapp .notes .cards .cardbox .editbtn{
+    background: rgb(109, 109, 255);
+    padding: 4px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px 8px;
+    font-size: 19px;
+}
